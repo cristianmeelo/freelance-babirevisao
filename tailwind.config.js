@@ -8,6 +8,14 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        roxo:{
+          200:"#d9e1ff",
+          400:"#8061ff",
+500:"#0C0A33"
+        },
+        cinza:{
+          500:"#F7F3F2"
+        },
         gray: {
           100: '#FBFBFB',
           200: '#EAEAEA',

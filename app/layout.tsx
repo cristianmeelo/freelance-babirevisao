@@ -1,15 +1,16 @@
 import './css/style.css'
 
-import { Inter } from 'next/font/google'
+import {  Syne, Arimo } from 'next/font/google'
 
 import Header from '@/components/ui/header'
 import Banner from '@/components/banner'
 
-const inter = Inter({
+const arimo = Arimo({
   subsets: ['latin'],
   variable: '--font-inter',
   display: 'swap'
 })
+
 
 export const metadata = {
   title: 'Revisora.babi',
@@ -23,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} font-inter antialiased bg-white text-gray-900 tracking-tight`}>
+      <body className={`${arimo.variable} font-inter antialiased bg-roxo-500 text-cinza-500 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
