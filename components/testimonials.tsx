@@ -24,11 +24,11 @@ export default function Testimonials() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4">Mais de 20,000 trabalhos revisados e formatados</h2>
-            <p className="text-xl text-roxo-200" data-aos="zoom-y-out">
+          <div className="max-w-3xl text-orange-500 mx-auto text-center pb-12 md:pb-16">
+            <h2 className="h2 mb-4">Mais de 1000 trabalhos revisados e formatados</h2>
+            {/* <p className="text-xl text-roxo-200" data-aos="zoom-y-out">
               Arcu cursus vitae congue mauris rhoncus viverra nibh cras pulvinar mattis blandit libero cursus mattis.
-            </p>
+            </p> */}
           </div>
 
           {/* Items */}

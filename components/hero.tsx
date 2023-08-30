@@ -32,13 +32,14 @@ export default function Hero() {
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-16">
-            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">
-              Formatação de TCC: Seu Trabalho Perfeito
+            <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4 text-orange-500" data-aos="zoom-y-out">
+              {/* Formatação de TCC: Seu Trabalho Perfeito */}
+              Seu TCC do início ao fim: consultoria especializada para um trabalho acadêmico nota 10!
               {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-400">TCC</span> */}
             </h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-roxo-200 mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                Nós fornecemos serviços de formatação para estudantes universitários em todas as áreas de estudo. Deixe-nos tornar seu TCC impecável!
+              <p className="text-xl text-white mb-8" data-aos="zoom-y-out" data-aos-delay="150">
+                Nós fornecemos serviços de estruturação em TCCS, monografias e trabalhos acadêmicos no geral, para estudantes em todas as áreas de estudo. Deixe-nos tornar seu trabalho impecável!
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>

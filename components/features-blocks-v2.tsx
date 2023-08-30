@@ -9,8 +9,8 @@ export default function FeaturesBlocksV2() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Serviços Oferecidos</h2>
-            <p className="text-xl text-roxo-200">Revisão ortográfica e gramatical, formatação de conteúdo e suporte na estruturação do seu tcc.</p>
+            <h2 className="h2 mb-4 text-orange-500">Serviços Oferecidos</h2>
+            <p className="text-xl text-white">Revisão ortográfica e gramatical, formatação de conteúdo e suporte na estruturação do seu tcc.</p>
           </div>
 
           {/* Items */}
@@ -28,13 +28,13 @@ export default function FeaturesBlocksV2() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Revisão de Texto</h4>
-              <p className="text-gray-600 text-center">Acentuação e Pontuação</p>
-              <p className="text-gray-600 text-center">Colocação pronominal</p>
-              <p className="text-gray-600 text-center">Novo acordo ortográfico</p>
-              <p className="text-gray-600 text-center">Coesão, coerência e clareza</p>
-              <p className="text-gray-600 text-center">Concordância e regência</p>
-              <p className="text-gray-600 text-center">Erros de digitação</p>
+              <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1"> Revisão de Texto</h4>
+              <p className="text-gray-600 text-center"> &rarr; Acentuação e Pontuação</p>
+              <p className="text-gray-600 text-center"> &rarr; Colocação pronominal</p>
+              <p className="text-gray-600 text-center"> &rarr; Novo acordo ortográfico</p>
+              <p className="text-gray-600 text-center"> &rarr; Coesão, coerência e clareza</p>
+              <p className="text-gray-600 text-center"> &rarr; Concordância e regência</p>
+              <p className="text-gray-600 text-center"> &rarr; Erros de digitação</p>
             </div>
 
             {/* 2nd item */}
@@ -51,17 +51,17 @@ export default function FeaturesBlocksV2() {
                 </g>
               </svg>
               <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Formatação</h4>
-              <p className="text-gray-600 text-center">Capa e contracapa</p>
-              <p className="text-gray-600 text-center">Folha de aprovação</p>
-              <p className="text-gray-600 text-center">Dedicatória, agradecimentos e epígrafe</p>
-              <p className="text-gray-600 text-center">Resumo e abstract</p>
-              <p className="text-gray-600 text-center">Lista de ilustrações, tabelas, abreviaturas e símbolos</p>
-              <p className="text-gray-600 text-center">Sumário eletrônico</p>
-              <p className="text-gray-600 text-center">Citação direta e indireta</p>
-              <p className="text-gray-600 text-center">Títulos e subtítulos</p>
-              <p className="text-gray-600 text-center">Nota de rodapé</p>
-              <p className="text-gray-600 text-center">Referências bibliográficas</p>
-              <p className="text-gray-600 text-center">Apêndice e anexo</p>
+              <p className="text-gray-600 text-center"> &rarr; Capa e contracapa</p>
+              <p className="text-gray-600 text-center"> &rarr; Folha de aprovação</p>
+              <p className="text-gray-600 text-center"> &rarr; Dedicatória, agradecimentos e epígrafe</p>
+              <p className="text-gray-600 text-center"> &rarr; Resumo e abstract</p>
+              <p className="text-gray-600 text-center"> &rarr; Lista de ilustrações, tabelas, abreviaturas e símbolos</p>
+              <p className="text-gray-600 text-center"> &rarr; Sumário eletrônico</p>
+              <p className="text-gray-600 text-center"> &rarr; Citação direta e indireta</p>
+              <p className="text-gray-600 text-center"> &rarr; Títulos e subtítulos</p>
+              <p className="text-gray-600 text-center"> &rarr; Nota de rodapé</p>
+              <p className="text-gray-600 text-center"> &rarr; Referências bibliográficas</p>
+              <p className="text-gray-600 text-center"> &rarr; Apêndice e anexo</p>
             </div>
 
             {/* 3rd item */}
@@ -78,9 +78,9 @@ export default function FeaturesBlocksV2() {
                 </g>
               </svg>
               <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Estruturação</h4>
-              <p className="text-gray-600 text-center">Avaliação de temas conforme o curso</p>
-              <p className="text-gray-600 text-center">Aconselhamento durante o percurso</p>
-              <p className="text-gray-600 text-center">Elaboração, construção</p>
+              <p className="text-gray-600 text-center"> &rarr; Avaliação de temas conforme o curso</p>
+              <p className="text-gray-600 text-center"> &rarr; Aconselhamento durante o percurso</p>
+              <p className="text-gray-600 text-center"> &rarr; Elaboração, construção</p>
             </div>
           </div>
         </div>
