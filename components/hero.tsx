@@ -50,7 +50,7 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div style={{ height: 1080 }}></div>
+          {/* <div style={{ height: 1080 }}></div> */}
           {/* Hero image */}
           {/* <ModalVideo
             thumb={VideoThumb}

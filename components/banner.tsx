@@ -14,7 +14,12 @@ export default function Banner() {
             <div className="text-slate-500 inline-flex">
               {/* <a className="font-medium hover:underline text-slate-50" href="https://github.com/cruip/tailwind-landing-page-template" target="_blank" rel="noreferrer">Siga<span className="hidden sm:inline"> me no Instagram</span></a> 
               <span className="italic px-1.5">ou</span> */}
-              <a className="font-medium hover:underline text-slate-400" href="https://cruip.com/simple/" target="_blank" rel="noreferrer">
+              <a
+                className="font-medium hover:underline text-slate-400"
+                href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Pedir um orçamento
               </a>
             </div>

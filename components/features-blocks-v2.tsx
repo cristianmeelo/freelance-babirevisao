@@ -2,8 +2,8 @@ export default function FeaturesBlocksV2() {
   return (
     <section className="relative">
       {/* Section background (needs .relative class on parent and next sibling elements) */}
-      <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div>
+      {/* <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-gray-900 pointer-events-none" aria-hidden="true"></div>
+      <div className="absolute left-0 right-0 bottom-0 m-auto w-px p-px h-20 bg-gray-200 transform translate-y-1/2"></div> */}
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
@@ -20,12 +20,12 @@ export default function FeaturesBlocksV2() {
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-blue-300" d="M34.514 35.429l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                    <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-                    <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-                    <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
-                  </g>
+                  <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      d="M38.62 21.5C38.11 21.5 37.6 21.69 37.21 22.09L30.75 28.55L34.95 32.74L41.41 26.29C42.2 25.5 42.2 24.24 41.41 23.46L40.04 22.09C39.65 21.69 39.14 21.5 38.62 21.5ZM29.8 29.5L23.23 36.07L23.93 36.77C23.4 37.24 22.89 37.78 22.38 38.29C21.6 39.08 21.6 40.34 22.38 41.12C23.16 41.9 24.42 41.9 25.21 41.12C25.72 40.63 26.25 40.08 26.73 39.58L27.43 40.27L34 33.7"
+                      fill="white"
+                    />
+                  </svg>
                 </g>
               </svg>
               <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1"> Revisão de Texto</h4>
@@ -42,12 +42,9 @@ export default function FeaturesBlocksV2() {
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-blue-300" d="M34.743 29.714l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                    <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-                    <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-                    <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
-                  </g>
+                  <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M31 33H41V31H31M31 29H41V27H31M23 23V25H41V23M31 37H41V35H31M23 28V36L27 32M23 41H41V39H23V41Z" fill="white" />
+                  </svg>
                 </g>
               </svg>
               <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Formatação</h4>
@@ -69,12 +66,9 @@ export default function FeaturesBlocksV2() {
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
                   <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
-                  <g strokeWidth="2">
-                    <path className="stroke-current text-blue-300" d="M34.743 29.714l2.057 2.285h8M20.571 26.286h5.715l2.057 2.285" />
-                    <path className="stroke-current text-white" d="M20.571 37.714h5.715L36.57 26.286h8" />
-                    <path className="stroke-current text-blue-300" strokeLinecap="square" d="M41.143 34.286l3.428 3.428-3.428 3.429" />
-                    <path className="stroke-current text-white" strokeLinecap="square" d="M41.143 29.714l3.428-3.428-3.428-3.429" />
-                  </g>
+                  <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23 36H32V41H23V36ZM22 30H28V35H22V30ZM29 30H35V35H29V30ZM36 30H42V35H36V30ZM33 36H41V41H33V36ZM23 24H31V29H23V24ZM32 24H41V29H32V24Z" fill="white" />
+                  </svg>
                 </g>
               </svg>
               <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Estruturação</h4>
