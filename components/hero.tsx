@@ -1,14 +1,12 @@
 "use client";
 
-import Image from "next/image";
-import VideoThumb from "@/public/images/hero-image.png";
-import ModalVideo from "@/components/modal-video";
-
-import FeaturesBg from "@/public/images/hero-image-2.jpg";
+import Lottie from "lottie-react";
+import animationData from "../public/animations/animation_books.json";
+import animationLetters from "../public/animations/animation_letters.json";
 
 export default function Hero() {
   return (
-    <section className="relative">
+    <section className="relative ">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1 bg-gradient-to-t from-transparent to-black">
         {/* <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
@@ -27,7 +25,7 @@ export default function Hero() {
       </div>
       {/* <Image className="md:max-w-none mx-auto rounded w-full h-full object-cover" src={FeaturesBg} alt="Features bg" /> */}
 
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
+      <div className="h-screen max-w-6xl mx-auto px-4 sm:px-6 ">
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
           {/* Section header */}
@@ -54,16 +52,12 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          {/* <div style={{ height: 1080 }}></div> */}
-          {/* Hero image */}
-          {/* <ModalVideo
-            thumb={VideoThumb}
-            thumbWidth={768}
-            thumbHeight={432}
-            thumbAlt="Modal video thumbnail"
-            video="/videos/video.mp4"
-            videoWidth={1920}
-            videoHeight={1080} /> */}
+          <div className="absolute mx-auto px-4 sm:px-6 -z-1 w-1/5 hidden sm:block  ">
+            <Lottie animationData={animationData} />
+          </div>
+          <div className="absolute left-3/4 top-0 -z-1 w-1/5 hidden sm:block opacity-20 ">
+            <Lottie animationData={animationLetters} />
+          </div>
         </div>
       </div>
     </section>
