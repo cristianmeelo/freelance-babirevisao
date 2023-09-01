@@ -43,7 +43,11 @@ export default function Hero() {
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
-                  <a className="btn text-white text-xl bg-roxo-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 animate-bounce" href="#0">
+                  <a
+                    className="btn text-white text-xl bg-roxo-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 animate-bounce"
+                    href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+                    target="_blank"
+                  >
                     Pedir um orçamento
                   </a>
                 </div>
