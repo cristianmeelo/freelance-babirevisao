@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+
 import "./css/style.css";
 
 import { Syne, Arimo, Courier_Prime } from "next/font/google";
@@ -29,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
-          {/* <Banner />w */}
+          <Analytics />
         </div>
       </body>
     </html>
