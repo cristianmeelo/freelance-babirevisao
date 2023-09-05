@@ -1,9 +1,8 @@
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
+import { Arimo } from "next/font/google";
 
 import "./css/style.css";
-
-import { Syne, Arimo, Courier_Prime } from "next/font/google";
-
 import Header from "@/components/ui/header";
 import Banner from "@/components/banner";
 
@@ -11,12 +10,6 @@ const arimo = Arimo({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
-});
-
-const courier = Courier_Prime({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  weight: "400",
 });
 
 export const metadata = {
@@ -27,6 +20,19 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-91XQY9G9D5"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-91XQY9G9D5');`,
+          }}
+        />
+      </head>
       <body className={`${arimo.variable} font-inter antialiased bg-roxo-500 text-cinza-500 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
