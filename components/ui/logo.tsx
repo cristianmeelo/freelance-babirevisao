@@ -20,7 +20,7 @@ export default function Logo() {
   }, [top]);
 
   return (
-    <Link href="/#0" className="block" aria-label="Cruip">
+    <Link href="/#0" className="block" aria-label="Book">
       <Image src={top ? LogoImg : LogoImgRoxo} alt="Logo Site" />
     </Link>
   );
