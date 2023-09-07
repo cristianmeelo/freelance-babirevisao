@@ -1,7 +1,10 @@
-export const metadata = {
+import type { Metadata } from 'next'
+ 
+export const metadata: Metadata = {
   title: "Consultoria em TCC",
-  description: "Page description",
-};
+  description: "Página para orçar consultoria de TCC",
+}
+
 
 import Hero from "@/components/hero";
 import Features from "@/components/features";
