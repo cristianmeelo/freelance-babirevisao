@@ -1,10 +1,7 @@
 "use client";
-
 import { useState, useEffect } from "react";
-
 import Link from "next/link";
 import Logo from "./logo";
-import Dropdown from "@/components/utils/dropdown";
 import MobileMenu from "./mobile-menu";
 
 export default function Header() {
