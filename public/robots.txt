@@ -1,3 +1,3 @@
 User-Agent: *
 Allow: /
-
+Sitemap: https://babirevisao.vercel.app/sitemap.xml
