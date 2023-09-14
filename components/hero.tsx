@@ -32,7 +32,7 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-4xl md:text-5xl font-extrabold leading-tighter tracking-tighter mb-4 text-white" data-aos="zoom-y-out">
               {/* Formatação de TCC: Seu Trabalho Perfeito */}
-              Seu TCC do início ao fim: consultoria especializada para um trabalho acadêmico nota 10!
+              Seu TCC do início ao fim: consultoria de tcc especializada para um trabalho acadêmico nota 10!
               {/* <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-500 to-green-400">TCC</span> */}
             </h1>
             <div className="max-w-3xl mx-auto">
