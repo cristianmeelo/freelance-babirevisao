@@ -11,7 +11,7 @@ export default function FeaturesBlocksV2() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4 text-orange-500">Serviços Oferecidos</h2>
             <p className="text-xl text-white">
-              Assesoria acadêmica em trabalhos de conclusão de curso, monografia, e trabalho acadêmico em geral, fornecendo revisão ortográfica e gramatical, formatação de conteúdo e suporte na estruturação do seu projeto.
+              Assessoria acadêmica em trabalhos de conclusão de curso, monografia, e trabalho acadêmico em geral, fornecendo revisão ortográfica e gramatical, formatação de conteúdo e suporte na estruturação do seu projeto.
             </p>
           </div>
 
