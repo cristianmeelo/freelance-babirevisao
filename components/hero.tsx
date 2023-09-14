@@ -37,7 +37,7 @@ export default function Hero() {
             </h1>
             <div className="max-w-3xl mx-auto">
               <p className="text-xl text-white mb-8" data-aos="zoom-y-out" data-aos-delay="150">
-                Nós fornecemos serviços de estruturação em TCCS, monografias e trabalhos acadêmicos no geral, para estudantes em todas as áreas de estudo. Deixe-nos tornar seu trabalho impecável!
+                Nós fornecemos assessoria acadêmica, serviços de estruturação em tcc, monografia e trabalho acadêmico no geral, para estudantes em todas as áreas de estudo. Deixe-nos tornar seu trabalho impecável!
               </p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>

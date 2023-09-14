@@ -43,7 +43,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4 text-purple-900">
-                  “Como graduada em Letras, encontrar prazer em revisar TCCs e todo o tipo de trabalho acadêmico é natural. Aprofundar-me na temática, aprimorar a linguagem com clareza e coesão, e ajudar estudantes a brilharem em seus trabalhos
+                  “Como graduada em Letras, encontrar prazer em revisar tcc e todo o tipo de trabalho acadêmico é natural. Aprofundar-me na temática, aprimorar a linguagem com clareza e coesão, e ajudar estudantes a brilharem em seus trabalhos
                   acadêmicos é minha paixão. Cada novo projeto se apresenta como uma oportunidade ímpar para contribuir significativamente com o sucesso daqueles que buscam minha assistência.“
                 </blockquote>
                 <cite className="block font-bold text-black text-lg not-italic mb-1">Bárbara Stegues Vieira</cite>

@@ -36,7 +36,7 @@ export default function Features() {
             {/* Content */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 md:mt-6" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
-                <h3 className="h3 mb-3 text-roxo-500">Fique tranquilo e contate-nos para te auxiliarmos nessa etapa...</h3>
+                <h3 className="h3 mb-3 text-roxo-500">Sabemos que esse é um momento desafiador, este tipo de projeto acadêmico requer dedicação e esforço, então fique tranquilo e contate-nos para te auxiliarmos nessa etapa...</h3>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
@@ -51,7 +51,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold text-emerald-800 leading-snug tracking-tight mb-9">Orçamento</div>
-                    <div className="text-emerald-800">Fale conosco pelo whatsapp e orçaremos sua demanda em até 2h.</div>
+                    <div className="text-emerald-800">Fale conosco pelo whatsapp e orçaremos seu tipo de trabalho em até 2h.</div>
                   </div>
                   <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg width="48" height="48" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold text-roxo-500 leading-snug tracking-tight mb-1">Retorno</div>
-                    <div className="text-gray-600">Retornamos em até 24h com o preço e o prazo do serviço, além de uma explicação sobre como será realizado o trabalho.</div>
+                    <div className="text-gray-600">Retornamos em até 24h com os prazos de entrega e o preço do serviço, além de uma explicação sobre como será realizado o tipo de trabalho solicitado.</div>
                   </div>
                 </div>
               </div>
