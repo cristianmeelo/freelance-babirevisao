@@ -29,7 +29,7 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4 text-roxo-500">Como contratar os serviços</h1>
+            <h2 className="h2 mb-4 text-roxo-500">Como contratar os serviços</h2>
           </div>
 
           {/* Section content */}
@@ -100,7 +100,6 @@ export default function Features() {
                   >
                     <div className="relative inline-flex flex-col">
                       <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="362" alt="Features bg" />
-                      {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesBg} width={500} height="44" alt="Element" style={{ top: "30%" }} /> */}
                     </div>
                   </Transition>
                   {/* Item 2 */}
