@@ -11,23 +11,46 @@ const arimo = Arimo({
 });
 
 export const metadata: Metadata = {
+  generator: "Next.js",
+  applicationName: "babi revisão de tcc",
+  referrer: "origin-when-cross-origin",
+  authors: [{ name: "Cristian da Rosa Melo", url: "https://www.linkedin.com/in/cristian-melo/" }],
+  creator: "Cristian da Rosa Melo",
+  publisher: "Cristian da Rosa Melo",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
+  },
   title: "Revisão de TCC. Revisão de Trabalho Acadêmico e ABNT",
   description: "Revisão de TCC, revisão de monografia, artigo, tese, dissertação, projeto de pesquisa, trabalho acadêmico, site. Correção gramatical e formatação da ABNT.",
+  keywords: "revisão, consultoria, TCC, monografia, artigo, tese, dissertação, ABNT, correção gramatical, formatação",
+
   alternates: {
     canonical: "https://babirevisao.vercel.app",
   },
-  keywords: "revisão, consultoria, TCC, monografia, artigo, tese, dissertação, ABNT, correção gramatical, formatação",
-  url: "https://babirevisao.vercel.app/",
-  robotsTag: "index, follow",
-  author: "Seu Nome",
-  publisher: "Nome do Publisher",
+  robots: {
+    index: false,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: false,
+      noimageindex: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 
   openGraph: {
     title: "Revisão de TCC - Serviços de Revisão e Formatação",
     description: "Oferecemos serviços de revisão para TCC, monografias, artigos, teses e mais. Garantimos correção gramatical e formatação de acordo com as normas da ABNT.",
     url: "https://babirevisao.vercel.app/",
-    site_name: "Babi Revisão",
+    siteName: "Babi Revisão",
+    authors: "Cristian da Rosa Melo",
     locale: "pt_BR",
+    publishedTime: "2023-09-01T00:00:00.000Z",
     images: [
       {
         url: "https://babirevisao.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.e5929ace.jpg&w=640&q=75",
@@ -36,7 +59,6 @@ export const metadata: Metadata = {
         alt: "Imagem do Open Graph para Babi Revisão",
       },
     ],
-    type: "website",
   },
 };
 
