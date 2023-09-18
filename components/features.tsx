@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect } from "react";
 import { Transition } from "@headlessui/react";
 import Image from "next/image";
+import va from "@vercel/analytics";
 import FeaturesBg from "@/public/images/profile.jpg";
 
 export default function Features() {
@@ -51,7 +52,9 @@ export default function Features() {
                 >
                   <div>
                     <div className="font-bold text-emerald-800 leading-snug tracking-tight mb-9">Orçamento</div>
-                    <div className="text-emerald-800">Fale conosco pelo whatsapp e orçaremos seu tipo de trabalho em até 2h.</div>
+                    <div className="text-emerald-800" onClick={() => va.track("click-quote-wp-img")}>
+                      Fale conosco pelo whatsapp e orçaremos seu tipo de trabalho em até 2h.
+                    </div>
                   </div>
                   <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full shadow flex-shrink-0 ml-3">
                     <svg width="48" height="48" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
