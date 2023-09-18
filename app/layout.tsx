@@ -16,6 +16,22 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://babirevisao.vercel.app",
   },
+  openGraph: {
+    title: "Revisão de TCC - Serviços de Revisão e Formatação",
+    description: "Oferecemos serviços de revisão para TCC, monografias, artigos, teses e mais. Garantimos correção gramatical e formatação de acordo com as normas da ABNT.",
+    url: "https://babirevisao.vercel.app",
+    siteName: "Babi Revisão",
+    locale: "pt_BR",
+    images: [
+      {
+        url: "https://babirevisao.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fprofile.e5929ace.jpg&w=640&q=75",
+        width: 800,
+        height: 600,
+        alt: "Imagem do Open Graph para Babi Revisão",
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
