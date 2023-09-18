@@ -11,8 +11,8 @@ const arimo = Arimo({
 });
 
 export const metadata: Metadata = {
-  title: "Revisão Consultoria de TCC. Revisão de Trabalho Acadêmico e ABNT",
-  description: "Revisão de TCC, Revisão de texto, Revisão de monografia, artigo, tese, dissertação, projeto de pesquisa, trabalho acadêmico, site. Correção gramatical e formatação da ABNT.",
+  title: "Revisão de TCC. Revisão de Trabalho Acadêmico e ABNT",
+  description: "Revisão de TCC, revisão de monografia, artigo, tese, dissertação, projeto de pesquisa, trabalho acadêmico, site. Correção gramatical e formatação da ABNT.",
   alternates: {
     canonical: "https://babirevisao.vercel.app",
   },
