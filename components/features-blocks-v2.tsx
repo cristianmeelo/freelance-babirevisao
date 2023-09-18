@@ -26,7 +26,7 @@ export default function FeaturesBlocksV2() {
                   </svg>
                 </g>
               </svg>
-              <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1"> Revisão de Texto</h4>
+              <h3 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1"> Revisão de Texto</h3>
               <p className="text-gray-600 text-center"> &rarr; Acentuação e Pontuação</p>
               <p className="text-gray-600 text-center"> &rarr; Colocação pronominal</p>
               <p className="text-gray-600 text-center"> &rarr; Novo acordo ortográfico</p>
@@ -45,7 +45,7 @@ export default function FeaturesBlocksV2() {
                   </svg>
                 </g>
               </svg>
-              <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Formatação</h4>
+              <h3 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Formatação</h3>
               <p className="text-gray-600 text-center"> &rarr; Capa e contracapa</p>
               <p className="text-gray-600 text-center"> &rarr; Folha de aprovação</p>
               <p className="text-gray-600 text-center"> &rarr; Dedicatória, agradecimentos e epígrafe</p>
@@ -69,7 +69,7 @@ export default function FeaturesBlocksV2() {
                   </svg>
                 </g>
               </svg>
-              <h4 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Estruturação</h4>
+              <h3 className="text-xl text-roxo-500 font-bold leading-snug tracking-tight mb-1">Estruturação</h3>
               <p className="text-gray-600 text-center"> &rarr; Avaliação de temas conforme o curso</p>
               <p className="text-gray-600 text-center"> &rarr; Aconselhamento durante o percurso</p>
               <p className="text-gray-600 text-center"> &rarr; Elaboração, construção</p>

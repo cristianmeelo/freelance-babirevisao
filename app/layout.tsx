@@ -16,11 +16,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://babirevisao.vercel.app",
   },
+  keywords: "revisão, consultoria, TCC, monografia, artigo, tese, dissertação, ABNT, correção gramatical, formatação",
+  url: "https://babirevisao.vercel.app/",
+  robotsTag: "index, follow",
+  author: "Seu Nome",
+  publisher: "Nome do Publisher",
+
   openGraph: {
     title: "Revisão de TCC - Serviços de Revisão e Formatação",
     description: "Oferecemos serviços de revisão para TCC, monografias, artigos, teses e mais. Garantimos correção gramatical e formatação de acordo com as normas da ABNT.",
-    url: "https://babirevisao.vercel.app",
-    siteName: "Babi Revisão",
+    url: "https://babirevisao.vercel.app/",
+    site_name: "Babi Revisão",
     locale: "pt_BR",
     images: [
       {
