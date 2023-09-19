@@ -8,9 +8,6 @@ import va from "@vercel/analytics";
 export default function Hero() {
   return (
     <section className="relative ">
-      {/* Illustration behind hero content */}
-      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1 bg-gradient-to-t from-transparent to-black"></div>
-
       <div className="h-screen max-w-6xl mx-auto px-4 sm:px-6 ">
         {/* Hero content */}
         <div className="pt-32 pb-12 md:pt-40 md:pb-20">
@@ -27,7 +24,7 @@ export default function Hero() {
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a
-                    className="btn text-white text-xl bg-roxo-400 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0 animate-bounce"
+                    className="btn text-roxo-500 text-xl bg-roxo-400 hover:bg-purple-700 hover:text-white w-full mb-4 sm:w-auto sm:mb-0 animate-bounce"
                     href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
                     target="_blank"
                     onClick={() => va.track("click-quote-hero")}

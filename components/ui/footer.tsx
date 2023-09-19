@@ -50,7 +50,7 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-roxo-200 mr-4">&copy; babirevisão.com Todos os direitos reservados.</div>
+          <div className="text-sm text-roxo-400 mr-4">&copy; babirevisão.com Todos os direitos reservados.</div>
         </div>
       </div>
     </footer>

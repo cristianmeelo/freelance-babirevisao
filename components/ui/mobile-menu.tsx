@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 
-export default function MobileMenu() {
+export default function MobileMenu({ top }: { top: boolean }) {
   const [mobileNavOpen, setMobileNavOpen] = useState<boolean>(false);
 
   const trigger = useRef<HTMLButtonElement>(null);
@@ -31,13 +31,15 @@ export default function MobileMenu() {
 
   return (
     <div className="flex md:hidden">
-      <a
-        className="btn text-white text-xl bg-roxo-400 hover:bg-purple-700 "
-        href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
-        target="_blank"
-      >
-        Pedir um orçamento
-      </a>
+      {!top && (
+        <a
+          className="btn text-roxo-400 text-xl bg-roxo-500 hover:bg-purple-700 hover:text-white"
+          href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+          target="_blank"
+        >
+          Pedir um orçamento
+        </a>
+      )}
     </div>
   );
 }
