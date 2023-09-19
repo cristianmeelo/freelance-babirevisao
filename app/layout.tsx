@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     telephone: false,
   },
   title: "Revisão de TCC. Revisão de Trabalho Acadêmico e ABNT",
-  description: "Revisão de TCC, revisão de monografia, artigo, tese, dissertação, projeto de pesquisa, trabalho acadêmico, site. Correção gramatical e formatação da ABNT.",
+  description: "Necessita de uma revisão de TCC, monografia, artigo, tese, dissertação ou projeto de pesquisa bem como trabalho acadêmico? Oferecemos correção gramatical e formatação de acordo com as normas da ABNT. Confira nossos serviços!",
   keywords: "revisão, consultoria, TCC, monografia, artigo, tese, dissertação, ABNT, correção gramatical, formatação",
 
   alternates: {
