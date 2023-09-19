@@ -117,8 +117,13 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesBg} width={500} height="44" alt="Element" style={{ top: "30%" }} /> */}
+                      <Image
+                        className="md:max-w-none mx-auto rounded"
+                        src={FeaturesBg}
+                        width={500}
+                        height="462"
+                        alt="Foto da Bárbara, uma moça jovem com cabelos castanhos, maquiada, vestida com toga da cor roxa com símbolo da PUCRS e umm canudo de formatura, ela está sorrindo em um cenário desfocado com árvores e gramados. "
+                      />
                     </div>
                   </Transition>
                 </div>

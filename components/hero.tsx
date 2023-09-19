@@ -10,7 +10,6 @@ export default function Hero() {
     <section className="relative ">
       {/* Illustration behind hero content */}
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1 bg-gradient-to-t from-transparent to-black"></div>
-      {/* <Image className="md:max-w-none mx-auto rounded w-full h-full object-cover" src={FeaturesBg} alt="Features bg" /> */}
 
       <div className="h-screen max-w-6xl mx-auto px-4 sm:px-6 ">
         {/* Hero content */}

@@ -21,7 +21,7 @@ export default function Logo() {
 
   return (
     <Link href="/#0" className="block" aria-label="Book">
-      <Image src={top ? LogoImg : LogoImgRoxo} alt="Logo Site" />
+      <Image src={top ? LogoImg : LogoImgRoxo} alt="Um livro aberto com uma vista plana na horizontal com sua folhas sendo folhadas e algumas borboletas saindo do livro, representa o logo do site." />
     </Link>
   );
 }
