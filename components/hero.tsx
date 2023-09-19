@@ -38,9 +38,9 @@ export default function Hero() {
           <div className="absolute mx-auto px-4 sm:px-6 -z-1 w-1/5 hidden sm:block">
             <Lottie animationData={animationData} role="presentation" />
           </div>
-          <div className="absolute left-3/4 top-0 -z-1 w-1/5 hidden sm:block opacity-20" role="presentation">
+          {/* <div className="absolute left-3/4 top-0 -z-1 w-1/5 hidden sm:block opacity-20" role="presentation">
             <Lottie animationData={animationLetters} role="presentation" />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
