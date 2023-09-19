@@ -11,7 +11,7 @@ export default function Footer() {
             <li>
               <a
                 href="https://www.instagram.com/babirevisora/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-gray-600 hover:text-roxo-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 target="_blank"
                 aria-label="Instagram"
                 onClick={() => va.track("click-insta-footer")}
@@ -24,7 +24,7 @@ export default function Footer() {
             <li className="ml-4">
               <a
                 href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-gray-600 hover:text-roxo-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 target="_blank"
                 aria-label="WhatsApp"
                 onClick={() => va.track("click-quote-footer")}
@@ -37,7 +37,7 @@ export default function Footer() {
             <li className="ml-4">
               <a
                 href="https://www.google.com/search?q=Babi+Consultoria+de+TCC&stick=H4sIAAAAAAAA_-NgU1IxqLA0NbQ0N7dMTjIwMLM0TDG3MqhINTIHci1TUpPMDJKNDRexijslJmUqOOfnFZfmlOQXZSYqpKQqhDg7AwAvKVMPQgAAAA&hl=pt-BR&mat=CWtn9Xi5LRLnElcBl7_Ll8jIrAuHY8DTvwVS-RKKFpUVHDNSSw5LdcrrBqh6jfQsDFOhquIEq7HsQ6WRJ_7xuS7LmR7IQgT8pE2FEcPcAhEoH-KjdNF94XakJw39Gb0EWKY&authuser=0"
-                className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
+                className="flex justify-center items-center text-gray-600 hover:text-roxo-500 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out"
                 target="_blank"
                 aria-label="Google Enterprise"
                 onClick={() => va.track("click-enterprise-footer")}
