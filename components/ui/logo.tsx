@@ -20,7 +20,7 @@ export default function Logo() {
   }, [top]);
 
   return (
-    <Link href="/#0" className="block" aria-label="Book">
+    <Link href="/#0" className="block focus:outline-none focus:ring focus:ring-black" aria-label="Book">
       <Image src={top ? LogoImg : LogoImgRoxo} alt="Um livro aberto com uma vista plana na horizontal com sua folhas sendo folhadas e algumas borboletas saindo do livro, representa o logo do site." />
     </Link>
   );

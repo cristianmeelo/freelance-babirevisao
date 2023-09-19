@@ -8,7 +8,6 @@ import FeaturesBg from "@/public/images/profile.jpg";
 
 export default function Features() {
   const [tab, setTab] = useState<number>(1);
-
   const tabs = useRef<HTMLDivElement>(null);
 
   const heightFix = () => {
@@ -42,18 +41,16 @@ export default function Features() {
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0">
                 <a
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab === 1 ? "bg-white shadow-md border-gray-200 hover:shadow-lg" : "bg-gray-200 border-transparent"}`}
+                  className={`focus:outline-none focus:ring focus:ring-black flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab === 1 ? "bg-white shadow-md border-gray-200 hover:shadow-lg" : "bg-gray-200 border-transparent"
+                  }`}
                   href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
                   target="_blank"
-                  onClick={(e) => {
-                    // e.preventDefault();
-                    setTab(1);
-                  }}
                 >
                   <div>
                     <div className="font-bold text-emerald-800 leading-snug tracking-tight mb-9">Orçamento</div>
                     <div className="text-emerald-800" onClick={() => va.track("click-quote-wp-img")}>
-                      Fale conosco pelo whatsapp e orçaremos seu tipo de trabalho em até 2h.
+                      Fale conosco pelo <span lang="">whatsapp</span> e orçaremos seu tipo de trabalho em até 2h.
                     </div>
                   </div>
                   <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -66,11 +63,10 @@ export default function Features() {
                   </div>
                 </a>
                 <div
-                  className={`flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${tab !== 2 ? "bg-white shadow-md border-gray-200 hover:shadow-lg" : "bg-gray-200 border-transparent"}`}
-                  onClick={(e) => {
-                    e.preventDefault();
-                    setTab(2);
-                  }}
+                  tabIndex={0}
+                  className={`focus:outline-none focus:ring focus:ring-black flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
+                    tab !== 2 ? "bg-white shadow-md border-gray-200 hover:shadow-lg" : "bg-gray-200 border-transparent"
+                  }`}
                 >
                   <div>
                     <div className="font-bold text-roxo-500 leading-snug tracking-tight mb-1">Retorno</div>
@@ -99,7 +95,13 @@ export default function Features() {
                     unmount={false}
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="362" alt="Features bg" />
+                      <Image
+                        className="md:max-w-none mx-auto rounded"
+                        src={FeaturesBg}
+                        width={500}
+                        height="362"
+                        alt="Foto da Bárbara, uma moça jovem com cabelos castanhos, maquiada, vestida com toga da cor roxa com símbolo da PUCRS e umm canudo de formatura, ela está sorrindo em um cenário desfocado com árvores e gramados. "
+                      />
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -115,17 +117,7 @@ export default function Features() {
                     leaveTo="opacity-0 -translate-y-16"
                     beforeEnter={() => heightFix()}
                     unmount={false}
-                  >
-                    <div className="relative inline-flex flex-col">
-                      <Image
-                        className="md:max-w-none mx-auto rounded"
-                        src={FeaturesBg}
-                        width={500}
-                        height="462"
-                        alt="Foto da Bárbara, uma moça jovem com cabelos castanhos, maquiada, vestida com toga da cor roxa com símbolo da PUCRS e umm canudo de formatura, ela está sorrindo em um cenário desfocado com árvores e gramados. "
-                      />
-                    </div>
-                  </Transition>
+                  ></Transition>
                 </div>
               </div>
             </div>
