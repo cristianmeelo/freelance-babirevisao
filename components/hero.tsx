@@ -35,10 +35,13 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="absolute mx-auto px-4 sm:px-6 -z-1 w-1/5 hidden sm:block  ">
+          <div className="absolute mx-auto px-4 sm:px-6 -z-1 w-1/5 hidden sm:block" aria-label="Um conjunto de livros de diversas cores e sem desenhos na capa executando uma animação de serem organizados e saírem voando.">
             <Lottie animationData={animationData} aria-label="Um conjunto de livros de diversas cores e sem desenhos na capa executando uma animação de serem organizados e saírem voando." />
           </div>
-          <div className="absolute left-3/4 top-0 -z-1 w-1/5 hidden sm:block opacity-20 ">
+          <div
+            className="absolute left-3/4 top-0 -z-1 w-1/5 hidden sm:block opacity-20"
+            aria-label="Um conjunto de letras na cor azul escuro do alfabeto português com tipografia de serifa caindo em um fluidez de cima para baixo, e a medida que faz a animação, as letras vão obtendo uma transparência até sumir completamente."
+          >
             <Lottie
               animationData={animationLetters}
               aria-label="Um conjunto de letras na cor azul escuro do alfabeto português com tipografia de serifa caindo em um fluidez de cima para baixo, e a medida que faz a animação, as letras vão obtendo uma transparência até sumir completamente."
