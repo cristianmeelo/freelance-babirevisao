@@ -56,6 +56,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      <a href="https://www.facebook.com/sharer.php?u=https://babirevisao.vercel.app/" target="_blank" rel="noopener noreferrer">
+        Compartilhar no Facebook
+      </a>
     </footer>
   );
 }
