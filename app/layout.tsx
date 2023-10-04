@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     canonical: "https://babirevisao.vercel.app",
   },
   robots: {
-    index: false,
+    index: true,
     follow: true,
     nocache: true,
     googleBot: {
