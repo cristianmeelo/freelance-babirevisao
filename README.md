@@ -11,13 +11,13 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/thumbnail.png?raw=true)
-
 ![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/mockup-static.png?raw=true#vitrinedev)
+
+![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/thumbnail.png?raw=true)
 
 <div align="center">
 <a href="https://babirevisao.vercel.app/">
-  <img src="https://img.shields.io/badge/-CONFIRA%20AQUI-blue" alt="Image App" >
+  <img src="https://img.shields.io/badge/-CONFIRA%20AQUI-lightblue" alt="Image App" >
 </a>
 </div>
 
