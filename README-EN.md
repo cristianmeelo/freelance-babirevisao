@@ -17,7 +17,7 @@
 
 <div align="center">
 <a href="https://babirevisao.vercel.app/">
-  <img src="https://img.shields.io/badge/-CHECK%20HERE-red"
+  <img src="https://img.shields.io/badge/-CHECK%20HERE-blue"
   alt="Image App" >
 </a>
 </div>
