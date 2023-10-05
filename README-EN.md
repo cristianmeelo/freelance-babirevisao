@@ -13,7 +13,7 @@
 
 ![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/thumbnail-en.png?raw=true)
 
-<img src="mockup.gif" alt="Image App" >
+<img src="mockup-animated.gif" alt="Image App" >
 <div align="center">
 <a href="https://babirevisao.vercel.app/">
   <img src="https://img.shields.io/badge/-CHECK%20HERE-red"
