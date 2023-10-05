@@ -59,4 +59,4 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 | :rocket: URL          | https://babirevisao.vercel.app/                                                                   |
 | :fire: Desafio        | -----                                                                                             |
 
-![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/mockup-static.png?raw=true#vitrinedev)
