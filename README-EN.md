@@ -13,7 +13,8 @@
 
 ![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/thumbnail-en.png?raw=true)
 
-<img src="mockup-animated.gif" alt="Image App" >
+![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/mockup-static.png?raw=true#vitrinedev)
+
 <div align="center">
 <a href="https://babirevisao.vercel.app/">
   <img src="https://img.shields.io/badge/-CHECK%20HERE-red"
@@ -59,5 +60,3 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 | :label: Technologies  | Next, Lottie, TypeScript, Tailwind, Lottie, Aos,Vercel Deployment,GitHub ( used Technologies) |
 | :rocket: URL          | https://babirevisao.vercel.app/                                                               |
 | :fire: Challenge      | -----                                                                                         |
-
-![](https://github.com/cristianmeelo/freelance-babirevisao/blob/main/mockup-static.png?raw=true#vitrinedev)
