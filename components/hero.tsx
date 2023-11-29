@@ -25,7 +25,7 @@ export default function Hero() {
                 <div>
                   <a
                     className="btn text-roxo-500 text-xl bg-roxo-400 hover:bg-purple-700 hover:text-white focus:outline-none focus:ring focus:ring-black w-full mb-4 sm:w-auto sm:mb-0 animate-bounce"
-                    href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+                    href="https://wa.me//5551989520505?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
                     target="_blank"
                     onClick={() => va.track("click-quote-hero")}
                   >

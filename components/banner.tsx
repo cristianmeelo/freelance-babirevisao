@@ -16,7 +16,7 @@ export default function Banner() {
               <span className="italic px-1.5">ou</span> */}
               <a
                 className="font-medium hover:underline text-slate-400"
-                href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+                href="https://wa.me//5551989520505?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
                 target="_blank"
                 rel="noreferrer"
               >

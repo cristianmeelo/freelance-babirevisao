@@ -23,7 +23,7 @@ export default function Footer() {
             </li>
             <li className="ml-4">
               <a
-                href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+                href="https://wa.me//5551989520505?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
                 className="flex justify-center items-center text-gray-600 hover:text-roxo-500 bg-white hover:bg-white-100 focus:outline-none focus:ring focus:ring-black rounded-full shadow transition duration-150 ease-in-out"
                 target="_blank"
                 aria-label="WhatsApp"

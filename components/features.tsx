@@ -44,7 +44,7 @@ export default function Features() {
                   className={`focus:outline-none focus:ring focus:ring-black flex items-center text-lg p-5 rounded border transition duration-300 ease-in-out mb-3 ${
                     tab === 1 ? "bg-white shadow-md border-gray-200 hover:shadow-lg" : "bg-gray-200 border-transparent"
                   }`}
-                  href="https://wa.me//5551989140442?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
+                  href="https://wa.me//5551989520505?text=Ol%C3%A1,%20B%C3%A1rbara.%20Tenho%20interesse%20em%20fazer%20um%20or%C3%A7amento%20de%20consultoria%20em%20TCC.%20Pode%20me%20ajudar?"
                   target="_blank"
                 >
                   <div>
