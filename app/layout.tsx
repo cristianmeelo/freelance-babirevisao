@@ -1,6 +1,8 @@
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Arimo } from "next/font/google";
 import type { Metadata } from "next";
+
 import Header from "@/components/ui/header";
 import "./css/style.css";
 
@@ -85,6 +87,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Header />
           {children}
           <Analytics />
+          <SpeedInsights/>
         </div>
       </body>
     </html>
