@@ -13,7 +13,7 @@ const arimo = Arimo({
 });
 
 export const metadata: Metadata = {
-  generator: "Next.js",
+  generator: "Next.js 13",
   applicationName: "babi revisão de tcc",
   referrer: "origin-when-cross-origin",
   authors: [{ name: "Cristian da Rosa Melo", url: "https://www.linkedin.com/in/cristian-melo/" }],
@@ -24,9 +24,8 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  title: "Consultoria de TCC. Revisão de Trabalho Acadêmico e ABNT",
-  description: "Necessita de uma revisão de TCC, monografia, artigo, tese, dissertação ou projeto de pesquisa bem como trabalho acadêmico? Oferecemos correção gramatical e formatação de acordo com as normas da ABNT.",
-  keywords: "revisão, consultoria, TCC, monografia, artigo, tese, dissertação, ABNT, correção gramatical, formatação",
+  title: "Babi Consultoria - Consultoria e Revisão de TCC",
+  description: "Entregamos à você consultoria personalizada e revisão de TCC, nossa meta é sua tranquilidade e aprovação. ✓ Entre em contato sem compromisso.",
 
   alternates: {
     canonical: "https://babirevisao.vercel.app",
@@ -46,8 +45,8 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Revisão de TCC - Serviços de Revisão e Formatação",
-    description: "Oferecemos serviços de revisão para TCC, monografias, artigos, teses e mais. Garantimos correção gramatical e formatação de acordo com as normas da ABNT.",
+    title: "Babi Consultoria - Consultoria e Revisão de TCC",
+    description: "Entregamos à você consultoria personalizada e revisão de TCC, nossa meta é sua tranquilidade e aprovação. ✓ Entre em contato sem compromisso.",
     url: "https://babirevisao.vercel.app/",
     siteName: "Babi Revisão",
     authors: "Cristian da Rosa Melo",
@@ -80,8 +79,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <link rel="icon" href="../public/favicon.ico" type="image/x-icon" />
-      <link rel="shortcut icon" href="../public/favicon.ico" type="image/x-icon" />
+      <link rel="icon" href="https://babirevisao.vercel.app/favicon.ico" type="image/x-icon" />
+      <link rel="shortcut icon" href="https://babirevisao.vercel.app/favicon.ico" type="image/x-icon" />
+      <link rel="apple-touch-icon" href="https://babirevisao.vercel.app/favicon.ico" />
+
       <body className={`${arimo.variable} font-inter antialiased bg-roxo-500 text-cinza-500 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
