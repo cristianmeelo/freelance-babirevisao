@@ -2,13 +2,9 @@ import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Arimo } from "next/font/google";
 import type { Metadata } from "next";
-import Hotjar from '@hotjar/browser';
+
 import Header from "@/components/ui/header";
 import "./css/style.css";
-
-const siteId = 3816544;
-const hotjarVersion = 6;
-
 
 const arimo = Arimo({
   subsets: ["latin"],
@@ -68,10 +64,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-
-Hotjar.init(siteId, hotjarVersion);
-
-
   return (
     <html lang="pt-BR">
       <head>
@@ -86,7 +78,6 @@ Hotjar.init(siteId, hotjarVersion);
   gtag('config', 'G-91XQY9G9D5');`,
           }}
         />
-        
       </head>
       <link rel="icon" href="https://babirevisao.vercel.app/favicon.ico" type="image/x-icon" />
       <link rel="shortcut icon" href="https://babirevisao.vercel.app/favicon.ico" type="image/x-icon" />
