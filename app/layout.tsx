@@ -68,14 +68,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="pt-BR">
       <head>
         {/* <!-- Google tag (gtag.js) --> */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-91XQY9G9D5"></script>
+        
         <script
           dangerouslySetInnerHTML={{
             __html: `  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-91XQY9G9D5');`,
+  gtag('config', 'GTM-N4BD7GW8');`,
           }}
         />
       </head>
@@ -84,6 +84,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <link rel="apple-touch-icon" href="https://babirevisao.vercel.app/favicon.ico" />
 
       <body className={`${arimo.variable} font-inter antialiased bg-roxo-500 text-cinza-500 tracking-tight`}>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N4BD7GW8"></script>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
           <Header />
           {children}
