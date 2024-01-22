@@ -50,9 +50,13 @@ export default function Footer() {
           </ul>
 
           {/* Copyrights note */}
-          <div className="text-sm text-roxo-400 mr-4 focus:outline-none focus:ring focus:ring-black" tabIndex={0}>
-            {" "}
+          <div className="flex flex-col text-sm text-roxo-400 mr-4 focus:outline-none focus:ring focus:ring-black" tabIndex={0}>
             &copy; babirevisão.com Todos os direitos reservados.
+          <a className="text-sm text-roxo-400 mr-4 hover:underline focus:outline-none focus:ring focus:ring-black"
+           tabIndex={0}
+           href="mailto:babirevisao@gmail.com.br?subject=Orçamento Consultoria de TCC&cc=suporte@babirevisao.com.br&body=Olá Babi Consultoria, gostaria de saber mais informações sobre a consultoria! Aguardo seu retorno.">
+            babirevisao@gmail.com
+          </a>
           </div>
         </div>
       </div>
