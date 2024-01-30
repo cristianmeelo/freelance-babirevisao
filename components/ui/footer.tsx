@@ -54,7 +54,7 @@ export default function Footer() {
             &copy; babirevisão.com Todos os direitos reservados.
           <a className="text-sm text-roxo-400 mr-4 hover:underline focus:outline-none focus:ring focus:ring-black"
            tabIndex={0}
-           href="mailto:barbara.babiconsultoria@gmail.com.br?subject=Orçamento Consultoria de TCC&cc=suporte@babirevisao.com.br&body=Olá Babi Consultoria, gostaria de saber mais informações sobre a consultoria! Aguardo seu retorno.">
+           href="mailto:barbara.babiconsultoria@gmail.com?subject=Orçamento Consultoria de TCC&cc=suporte@babirevisao.com.br&body=Olá Babi Consultoria, gostaria de saber mais informações sobre a consultoria! Aguardo seu retorno.">
             barbara.babiconsultoria@gmail.com
           </a>
           </div>
