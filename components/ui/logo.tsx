@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
-import LogoImg from "../../public/images/logo.svg";
+import LogoImg from "../../public/images/logo.png";
 import LogoImgRoxo from "../../public/images/logo_roxo.svg";
 
 export default function Logo() {

@@ -10,7 +10,7 @@ export default function Footer() {
           <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
             <li>
               <a
-                href="https://www.instagram.com/babirevisora/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"
+                href="https://www.instagram.com/chamaababi"
                 className="flex justify-center items-center text-gray-600 hover:text-roxo-500 bg-white hover:bg-white-100 focus:outline-none focus:ring focus:ring-black rounded-full shadow transition duration-150 ease-in-out"
                 target="_blank"
                 aria-label="Instagram"
@@ -51,7 +51,7 @@ export default function Footer() {
 
           {/* Copyrights note */}
           <div className="flex flex-col text-sm text-roxo-400 mr-4 focus:outline-none focus:ring focus:ring-black" tabIndex={0}>
-            &copy; babirevisão.com Todos os direitos reservados.
+            &copy; babiconsultoria.com.br - Todos os direitos reservados.
           <a className="text-sm text-roxo-400 mr-4 hover:underline focus:outline-none focus:ring focus:ring-black"
            tabIndex={0}
            href="mailto:barbara.babiconsultoria@gmail.com?subject=Orçamento Consultoria de TCC&cc=suporte.babirevisao@gmail.com&body=Olá Babi Consultoria, gostaria de saber mais informações sobre a consultoria! Aguardo seu retorno.">
