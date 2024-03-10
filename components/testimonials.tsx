@@ -35,8 +35,8 @@ export default function Testimonials() {
                 <cite className="block font-bold text-black text-lg not-italic mb-1">Bárbara Stegues Vieira</cite>
                 <div className="text-gray-600">
                   <span>Fundadora do</span>
-                  <a className="text-blue-600 hover:underline focus:outline-none focus:ring focus:ring-black" href="https://www.instagram.com/chamaababi" target="_blank">
-                    @chamaababi
+                  <a className="text-blue-600 hover:underline focus:outline-none focus:ring focus:ring-black" href="https://www.instagram.com/babirevisoes" target="_blank">
+                    @babirevisoes
                   </a>
                 </div>
               </div>
