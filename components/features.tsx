@@ -28,7 +28,7 @@ export default function Features() {
         <div className="pt-12 md:pt-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h2 className="h2 mb-4 text-roxo-500">Como contratar os serviços</h2>
+            <h2 className="h2 mb-4 text-orange-500">Como contratar os serviços</h2>
           </div>
 
           {/* Section content */}

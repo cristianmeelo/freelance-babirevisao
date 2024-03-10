@@ -17,7 +17,7 @@ export default function FeaturesBlocksV2() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl focus:outline-none focus:ring focus:ring-black" tabIndex={0}>
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M38.62 21.5C38.11 21.5 37.6 21.69 37.21 22.09L30.75 28.55L34.95 32.74L41.41 26.29C42.2 25.5 42.2 24.24 41.41 23.46L40.04 22.09C39.65 21.69 39.14 21.5 38.62 21.5ZM29.8 29.5L23.23 36.07L23.93 36.77C23.4 37.24 22.89 37.78 22.38 38.29C21.6 39.08 21.6 40.34 22.38 41.12C23.16 41.9 24.42 41.9 25.21 41.12C25.72 40.63 26.25 40.08 26.73 39.58L27.43 40.27L34 33.7"
@@ -39,7 +39,7 @@ export default function FeaturesBlocksV2() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl focus:outline-none focus:ring focus:ring-black" tabIndex={0}>
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M31 33H41V31H31M31 29H41V27H31M23 23V25H41V23M31 37H41V35H31M23 28V36L27 32M23 41H41V39H23V41Z" fill="white" />
                   </svg>
@@ -65,7 +65,7 @@ export default function FeaturesBlocksV2() {
             <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl focus:outline-none focus:ring focus:ring-black" tabIndex={0}>
               <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fillRule="evenodd">
-                  <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
+                  <rect className="fill-current text-orange-600" width="64" height="64" rx="32" />
                   <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M23 36H32V41H23V36ZM22 30H28V35H22V30ZM29 30H35V35H29V30ZM36 30H42V35H36V30ZM33 36H41V41H33V36ZM23 24H31V29H23V24ZM32 24H41V29H32V24Z" fill="white" />
                   </svg>
