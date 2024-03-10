@@ -83,7 +83,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <link rel="shortcut icon" href="https://babirevisao.vercel.app/favicon.ico" type="image/x-icon" />
       <link rel="apple-touch-icon" href="https://babirevisao.vercel.app/favicon.ico" />
       <meta name="google-site-verification" content="yd_WX1MiDmeleDBT_E61o_q-o4kI-W4CTG1jotekXK4" />
-
+      <meta name="google-site-verification" content="tsJlHEZwbIj7g4ceOjCiliT6b2T6fcyQtjBXgHhfTYs" />
       <body className={`${arimo.variable} font-inter antialiased bg-roxo-500 text-cinza-500 tracking-tight`}>
       <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-N4BD7GW8"></script>
         <div className="flex flex-col min-h-screen overflow-hidden supports-[overflow:clip]:overflow-clip">
